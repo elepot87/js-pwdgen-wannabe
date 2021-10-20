@@ -25,4 +25,4 @@ firstName + lastName + color + "21"; */
 let returnPassword = `${firstName}${lastName}${color}21`;
 
 // Mostro nel documento la password creata con i dati ricevuti tramite template literal
-document.getElementById("password").innerHTML = returnPassword;
+document.getElementById("password").innerHTML = returnPassword.toLowerCase();
