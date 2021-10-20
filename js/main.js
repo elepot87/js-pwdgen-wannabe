@@ -8,15 +8,12 @@
 //Chiedere all'utente il nome tramite input
 
 const firstName = prompt("Qual è il tuo nome?");
-// console.log(firstName);
 
 //Chiedere all'utente il cognome tramite input
 const lastName = prompt("Qual è il tuo cognome?");
-// console.log(lastName);
 
 //Chiedere all'utente il colore preferito tramite input
 const color = prompt("Qual è il tuo colore preferito?");
-// console.log(color);
 
 // Tenerle in memoria e mostrare sulla pagina i dati ricevuti in un determinato formato (nomecognomecolorepreferito21)
 
@@ -27,7 +24,5 @@ firstName + lastName + color + "21"; */
 // Creo variabile che racchiuda i dati ricevuti dall'utente
 let returnPassword = `${firstName}${lastName}${color}21`;
 
-// Mostro nel documento la password creata con i dati ricevuti
+// Mostro nel documento la password creata con i dati ricevuti tramite template literal
 document.getElementById("password").innerHTML = returnPassword;
-
-// console.log(returnPassword);
